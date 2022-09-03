@@ -102,3 +102,84 @@ a:link, a:visited, a:active {
   float: right;
   list-style:none
 }
+
+.card-title {
+    color:rgb(44, 44, 122);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card-text {
+    color:rgb(44, 44, 122);
+    font-size: 1.5em;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 600px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid rgb(67, 24, 243);
+    border-radius: 1em;
+    font-family: 'Denk One', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+  }
+
+  form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: rgb(105, 91, 228);
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: .5em;
+  }
