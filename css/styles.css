@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(171, 171, 229);
+    color: white;
+}
+
+/* Estilo DIV contenedor de Sitio*/
+.contenedor {
+    border-top: 5px;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    
+}
+
+/*Estilo a contenedor de Logo*/
+.superior {
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/*Establecer el estilo DIV MENU*/
+.menu {
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    min-height: 35px;
+}
+
+.menu {
+    padding-top: 5px;/*Separar 5px de borde superior*/
+}
+
+/*Quitar viñetas en listas*/
+ul, ol {
+    list-style:none;
+}
+
+
+.nav li {
+    border-radius: 5px;
+    display:block;
+    background-color:#000;
+    color:#fff;
+    float: right;
+    margin-right: 5px;
+    text-decoration:none;
+    padding:10px 12px;
+    width: 100px;    
+}
+
+.nav li:hover {
+    background-color:#e5ea3f;
+}
+
+/* Estilo a enlaces de MENU */
+a:link, a:visited, a:active {
+    text-decoration:none; /*Quitar subrayado*/
+}
+.nav li a {
+    color: #fff;
+}
+
+.nav li a:hover {
+    color:#000;
+}
+
+/*SECCION SLIDER*/
+.banner {
+    margin-top: 5px;
+    background-color: #e5ea3f;
+    border-radius: 5px;
+    min-height: 400px;
+}
+
+.banner img {
+    height: 400px;
+    width: 100%;
+}
+
+/*SECCION CONTENIDO*/
+.contenido {
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: cadetblue;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;;
+    margin-top: 3px;
+    min-height: 400px;
+}
+
+
+.social-icons li a
+{
+  padding-left:0;
+  margin-bottom:0;
+  display: block;
+  float: right;
+  list-style:none
+}
